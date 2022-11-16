@@ -130,5 +130,5 @@ const pizzaIngredientesData= Pizzas.map( (pizza) => {
   console.log(pizzaIngredientesData);
 
   pizzaIngredientesData.forEach( (pizza)=> {
-    console.log(`Los ingredientes de ${pizza.nombre} son los siguentes: ${pizza.ingredientes}`);
+    console.log(`La ${pizza.nombre} contiene los siguientes ingredientes: ${pizza.ingrediente}`);
 });
